@@ -31,6 +31,7 @@ from serendipyty.seismic.utils.util import oneface
 from serendipyty.seismic.utils.dispersion import itdt3
 
 from serendipyty.seismic.input.wavelets import RickerWavelet
+from serendipyty.seismic.input.sources import PointSource
 
 #from pymh import *
 
@@ -254,7 +255,7 @@ outputs = awe2d.calc_full(vp,rho,dx,src_loc,q_src,fc,dt,'q',outparam,pml,npml,12
 
 vmin, vmax = (-5e3, 5e3)
 
-it = 20
+it = 30
 snap = outputs['slice'][0, it, ...]
 
 fig = plt.figure(facecolor='w', edgecolor='k')
