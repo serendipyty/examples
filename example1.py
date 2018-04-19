@@ -32,6 +32,7 @@ from serendipyty.seismic.utils.dispersion import itdt3
 
 from serendipyty.seismic.input.wavelets import RickerWavelet
 from serendipyty.seismic.input.sources import PointSource
+from serendipyty.seismic.model.models import AcousticModel
 
 #from pymh import *
 
